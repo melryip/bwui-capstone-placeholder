@@ -1,0 +1,50 @@
+#main {
+  text-align: left;
+  justify-items: auto;
+}
+
+.jobs {
+  padding: 2rem 10rem 3rem 10rem;
+}
+
+.jobs h3 {
+  margin-top: 1rem;
+  font-size: inherit;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr) 1fr;
+  grid-gap: 1rem;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+#main form .button {
+  height: fit-content;
+  padding: 1rem 0;
+}
+
+input:focus {
+  border: 1px solid #6396b5;
+}
+
+.job-list {
+  border-top: solid 1px hsla(0, 0%, 59%, 1);
+}
+
+.job {
+  border-bottom: solid 1px hsla(0, 0%, 59%, 1);
+  padding: 1rem 0;
+}
+
+.job h4 {
+  padding-bottom: .5rem;
+  font-size: inherit;
+  line-height: 1.2;
+}
+
+#see-all-jobs {
+  align-self: flex-start;
+  margin-top: 2rem;
+}
